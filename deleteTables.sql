@@ -17,3 +17,7 @@ SHOW TABLES;
 
 -- This is how you delete a table
 DROP TABLE test;
+
+-- This is how you clear all of the rows in the table. DANGEROUS!
+-- essentially, it drops the table and then creates it again.
+TRUNCATE TABLE test;
